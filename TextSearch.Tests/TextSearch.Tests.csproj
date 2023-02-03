@@ -21,4 +21,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TextSearch\TextSearch.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\**" CopyToOutputDirectory="Always" />
+  </ItemGroup>
+
 </Project>
