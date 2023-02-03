@@ -73,6 +73,11 @@ public class Index<T>
             {
                 possibleTexts.IntersectWith(texts);
             }
+
+            if (possibleTexts.Count == 0)
+            {
+                return Enumerable.Empty<T>();
+            }
         }
 
         if (possibleTexts == null)

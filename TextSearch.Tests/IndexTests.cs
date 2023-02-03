@@ -22,7 +22,7 @@ public class TextSearchIndexTests
 
     [Theory]
     [InlineData("Donec ut mauris eget massa tempor convallis", 37)]
-    [InlineData("magnis", 54)]
+    [InlineData("mag", 209)]
     [InlineData("This is not Latin", 0)]
     public void FindsElements(string searchText, int expectedCount)
     {
