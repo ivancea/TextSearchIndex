@@ -2,17 +2,15 @@ namespace TextSearch.Benchmarks;
 
 using BenchmarkDotNet.Attributes;
 
-public class IndexBenchmark
+public class IndexSearchBenchmark
 {
-    private const int N = 1000;
-
     private readonly List<string> phrases;
     private readonly Index<string> index;
 
     [Params("Aenean", "nis", "facilisi")]
     public string? SearchText { get; set; }
 
-    public IndexBenchmark()
+    public IndexSearchBenchmark()
     {
         phrases = new();
         index = new(3);
@@ -31,8 +29,8 @@ public class IndexBenchmark
         }
     }
 
-    [Benchmark]
-    public int SearchWithFind()
+    [Benchmark(Baseline = true)]
+    public int SearchWithLinq()
     {
         return phrases.Where(p => p.Contains(SearchText!)).Count();
     }
