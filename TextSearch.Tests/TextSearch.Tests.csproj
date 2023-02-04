@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TextSearch\TextSearch.csproj" />
+    <ProjectReference Include="../TextSearch/TextSearch.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Resources\**" CopyToOutputDirectory="Always" />
+    <Content Include="Resources/**/*.*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
