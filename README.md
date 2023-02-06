@@ -39,7 +39,7 @@ Intel Core i5-4460 CPU 3.20GHz (Haswell), 1 CPU, 4 logical and 4 physical cores
 | SearchWithLinq |               20 | 5,844.98 us |  78.683 us |  73.600 us | 5,841.20 us |  1.00 |    0.00 |
 |         Search |               20 |    67.68 us |   0.545 us |   0.510 us |    67.58 us |  0.01 |    0.00 |
 
-##### 100.000 elements
+##### 1.000.000 elements
 
 |         Method | SearchTextLength |        Mean |     Error |    StdDev |      Median | Ratio |
 |--------------- |----------------- |------------:|----------:|----------:|------------:|------:|
