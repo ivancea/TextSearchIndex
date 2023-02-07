@@ -28,16 +28,16 @@ Intel Core i5-4460 CPU 3.20GHz (Haswell), 1 CPU, 4 logical and 4 physical cores
 
 ##### 100.000 elements
 
-|         Method | SearchTextLength |        Mean |      Error |     StdDev |      Median | Ratio | RatioSD |
-|--------------- |----------------- |------------:|-----------:|-----------:|------------:|------:|--------:|
-| SearchWithLinq |                3 | 6,279.35 us | 111.577 us | 124.018 us | 6,316.45 us |  1.00 |    0.00 |
-|         Search |                3 | 2,238.39 us |  60.865 us | 179.463 us | 2,183.98 us |  0.37 |    0.03 |
-|                |                  |             |            |            |             |       |         |
-| SearchWithLinq |                5 | 6,261.03 us | 114.967 us | 101.915 us | 6,254.11 us |  1.00 |    0.00 |
-|         Search |                5 | 7,694.39 us | 151.883 us | 266.011 us | 7,722.72 us |  1.21 |    0.05 |
-|                |                  |             |            |            |             |       |         |
-| SearchWithLinq |               20 | 5,844.98 us |  78.683 us |  73.600 us | 5,841.20 us |  1.00 |    0.00 |
-|         Search |               20 |    67.68 us |   0.545 us |   0.510 us |    67.58 us |  0.01 |    0.00 |
+|         Method | SearchTextLength |        Mean |      Error |     StdDev |      Median | Ratio |
+|--------------- |----------------- |------------:|-----------:|-----------:|------------:|------:|
+| SearchWithLinq |                3 | 6,279.35 us | 111.577 us | 124.018 us | 6,316.45 us |  1.00 |
+|         Search |                3 | 2,238.39 us |  60.865 us | 179.463 us | 2,183.98 us |  0.37 |
+|                |                  |             |            |            |             |       |
+| SearchWithLinq |                5 | 6,261.03 us | 114.967 us | 101.915 us | 6,254.11 us |  1.00 |
+|         Search |                5 | 7,694.39 us | 151.883 us | 266.011 us | 7,722.72 us |  1.21 |
+|                |                  |             |            |            |             |       |
+| SearchWithLinq |               20 | 5,844.98 us |  78.683 us |  73.600 us | 5,841.20 us |  1.00 |
+|         Search |               20 |    67.68 us |   0.545 us |   0.510 us |    67.58 us |  0.01 |
 
 ##### 1.000.000 elements
 
