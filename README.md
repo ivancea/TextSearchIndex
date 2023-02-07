@@ -2,6 +2,14 @@
 
 A simple text search index algorithm to allow a "contains" search over any number of indexed elements.
 
+## How does it work
+
+The principle used by this index (of N) is to get every N-substring of the indexed strings, and use them as keys in a multi-valued dictionary.
+
+While searching, we also search every substring of the search term, and we intersect the results. This give us the matches that contains every substring, reducing the number of possible matches to a minimum. After that, we do a final "contains" filtering on the matches.
+
+![Index explanation](docs/images/index_explanation.png)
+
 ## How to use
 
 - Build: `dotnet build`
