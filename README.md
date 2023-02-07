@@ -17,7 +17,6 @@ While searching, we also search every substring of the search term, and we inter
 - Execute mutation tests: `dotnet stryker`
 - Execute benchmark: `dotnet run -c Release --project TextSearch.Benchmarks`
 
-
 ## Benchmarks
 
 ### [IndexSearchRandomBenchmark](TextSearch.Benchmarks/IndexSearchRandomBenchmark.cs)
