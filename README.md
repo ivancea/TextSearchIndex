@@ -1,4 +1,4 @@
-# Text search index algorithm
+# Text search index algorithm (Trigram index)
 
 A simple text search index algorithm to allow a "contains" search over any number of indexed elements.
 
